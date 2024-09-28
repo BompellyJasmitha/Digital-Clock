@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: antiquewhite;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#mainDiv{
+width:100%;
+height:100vh;
+align-content: center;
+background: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/70619a9655183.560d7bfb8dc17.jpg")no-repeat center/cover;
+}
+
+#childDiv{
+    width:80%;
+    height:60vh;
+    margin:0px auto;
+    box-shadow:1px 1px 1px antiquewhite;
+    box-shadow: antiquewhite 0px 20px 30px -10px,antiquewhite 0px -20px 30px -10px;
+    border-radius: 20px;
+}
+#childDiv:hover{
+transform: scale(1.1);
+color:url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/70619a9655183.560d7bfb8dc17.jpg");
+box-shadow: black 0px 20px 30px -10px,black 0px -20px 30px -10px;
+background-color: rgba(250, 235, 215, 0.097);
+}
+
+
+#date{
+    width:fit-content;
+    font-size: 60px;
+    position: relative;
+    top:50px;
+    left:190px;
+}
+
+#time{
+    /* background-color: antiquewhite; */
+    width: fit-content;
+    position:relative;
+    left:180px;
+    top:80px;
+    
+    font-size: 150px;
+
 }
